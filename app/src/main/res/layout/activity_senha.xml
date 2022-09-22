@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CF064A"
+    tools:context=".Senha">
+
+  <EditText
+      android:id="@+id/editTextTextPersonName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="#23F1EAEA"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:text="Acesso à Conta"
+      android:textColor="@color/white"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      tools:layout_editor_absoluteX="55dp"
+      tools:layout_editor_absoluteY="29dp" />
+
+  <EditText
+      android:id="@+id/editTextTextPassword4"
+      android:layout_width="268dp"
+      android:layout_height="88dp"
+      android:background="@color/white"
+      android:ems="10"
+      android:hint="Qual é sua senha?"
+      android:inputType="textPassword"
+      android:padding="30dp"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textColorHint="#534F4F"
+      android:textSize="20sp"
+      tools:layout_editor_absoluteX="81dp"
+      tools:layout_editor_absoluteY="368dp" />
+
+  <Button
+      android:id="@+id/button4"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/white"
+      android:text="Confirmar"
+      android:textColor="#F44336"
+      app:cornerRadius="20dp"
+      tools:layout_editor_absoluteX="68dp"
+      tools:layout_editor_absoluteY="602dp" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Agência sem digito: **99"
+      android:textColor="@color/white"
+      tools:layout_editor_absoluteX="55dp"
+      tools:layout_editor_absoluteY="121dp" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Conta com digito: *****99-9"
+      android:textColor="@color/white"
+      tools:layout_editor_absoluteX="55dp"
+      tools:layout_editor_absoluteY="169dp" />
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Titularidade: 1°titular"
+      android:textColor="@color/white"
+      tools:layout_editor_absoluteX="55dp"
+      tools:layout_editor_absoluteY="217dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
