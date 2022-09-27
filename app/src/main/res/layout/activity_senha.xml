@@ -11,6 +11,9 @@
       android:id="@+id/editTextTextPersonName"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_marginStart="55dp"
+      android:layout_marginTop="100dp"
+      android:layout_marginBottom="20dp"
       android:backgroundTint="#23F1EAEA"
       android:ems="10"
       android:inputType="textPersonName"
@@ -18,61 +21,83 @@
       android:textColor="@color/white"
       android:textSize="24sp"
       android:textStyle="bold"
-      tools:layout_editor_absoluteX="55dp"
-      tools:layout_editor_absoluteY="29dp" />
+      app:layout_constraintBottom_toTopOf="@+id/textView2"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 
   <EditText
-      android:id="@+id/editTextTextPassword4"
-      android:layout_width="268dp"
-      android:layout_height="88dp"
+      android:id="@+id/edit_senha"
+      android:layout_width="234dp"
+      android:layout_height="63dp"
+      android:layout_marginStart="65dp"
+      android:layout_marginTop="-90dp"
+      android:layout_marginEnd="65dp"
+      android:layout_marginBottom="146dp"
       android:background="@color/white"
       android:ems="10"
       android:hint="Qual é sua senha?"
-      android:inputType="textPassword"
-      android:padding="30dp"
+      android:inputType=""
+      android:maxLength="4"
+      android:padding="15dp"
       android:textAlignment="center"
       android:textColor="@color/black"
       android:textColorHint="#534F4F"
-      android:textSize="20sp"
-      tools:layout_editor_absoluteX="81dp"
-      tools:layout_editor_absoluteY="368dp" />
+      android:textSize="16sp"
+      app:layout_constraintBottom_toTopOf="@+id/bt_confirmar"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.486"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
   <Button
-      android:id="@+id/button4"
-      android:layout_width="300dp"
+      android:id="@+id/bt_confirmar"
+      android:layout_width="250dp"
       android:layout_height="wrap_content"
+      android:layout_marginStart="84dp"
+      android:layout_marginTop="-100dp"
+      android:layout_marginEnd="84dp"
+      android:layout_marginBottom="150dp"
       android:backgroundTint="@color/white"
       android:text="Confirmar"
       android:textColor="#F44336"
       app:cornerRadius="20dp"
-      tools:layout_editor_absoluteX="68dp"
-      tools:layout_editor_absoluteY="602dp" />
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/edit_senha" />
 
   <TextView
       android:id="@+id/textView2"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_marginStart="55dp"
+      android:layout_marginBottom="29dp"
       android:text="Agência sem digito: **99"
       android:textColor="@color/white"
-      tools:layout_editor_absoluteX="55dp"
-      tools:layout_editor_absoluteY="121dp" />
+      app:layout_constraintBottom_toTopOf="@+id/textView3"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
   <TextView
       android:id="@+id/textView3"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_marginBottom="29dp"
       android:text="Conta com digito: *****99-9"
       android:textColor="@color/white"
-      tools:layout_editor_absoluteX="55dp"
-      tools:layout_editor_absoluteY="169dp" />
+      app:layout_constraintBottom_toTopOf="@+id/textView4"
+      app:layout_constraintStart_toStartOf="@+id/textView2"
+      app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
   <TextView
       android:id="@+id/textView4"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_marginBottom="132dp"
       android:text="Titularidade: 1°titular"
       android:textColor="@color/white"
-      tools:layout_editor_absoluteX="55dp"
-      tools:layout_editor_absoluteY="217dp" />
+      app:layout_constraintBottom_toTopOf="@+id/edit_senha"
+      app:layout_constraintStart_toStartOf="@+id/textView3"
+      app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,13 +18,14 @@ public class Splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-              ActivitySenha();
+              ActivityConta();
             }
         },3000);//3 Segundos
     }
-    private void ActivitySenha(){
 
-        Intent intent = new Intent(Splash.this,Senha.class);
+    private void ActivityConta(){
+
+        Intent intent = new Intent(Splash.this,Conta.class);
         startActivity(intent);
         finish();
     }
