@@ -15,13 +15,13 @@ Projeto desenvolvido no curso Stack Mobile
 <h6>Tela inicial</h6>
 <img alt="Tela inicial" src="https://i.imgur.com/i2LbTeI.png"/>
 <h6>Tela de acesso a conta </h6>
-<img alt="Conta" src="https://imgur.com/d6ccOXj"/>
+<img alt="Conta" src="https://i.imgur.com/d6ccOXj.png"/>
 <h6>Tela de acesso a senha </h6>
-<img alt="Senha" src="https://imgur.com/tKiHlFC"/>
+<img alt="Senha" src="https://i.imgur.com/tKiHlFC.png"/>
 <h6>Tela de saldo em conta </h6>
-<img alt="Saldo" src="https://imgur.com/SiXKFeD"/>
+<img alt="Saldo" src="https://i.imgur.com/SiXKFeD.png"/>
 <h6>Sacar</h6>
-<img alt="Saque" src="https://imgur.com/Y7aozDa"/>
+<img alt="Saque" src="https://i.imgur.com/Y7aozDa.png"/>
 
 <h2>Tecnologias utilizadas</h2>
 <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
