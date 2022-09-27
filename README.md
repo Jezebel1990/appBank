@@ -11,7 +11,7 @@ Projeto desenvolvido no curso Stack Mobile <a href="https://youtu.be/SOh-qoBOmVo
 - [x] Saldo em Conta
 - [x] Sacar
 
-<h2>Visão resumida do APP</h2>
+<h2>Visão do APP</h2>
 <h6>Tela inicial</h6>
 <img alt="Tela inicial" src="https://i.imgur.com/i2LbTeI.png"/>
 <h6>Tela de acesso a conta </h6>
