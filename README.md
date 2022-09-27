@@ -13,7 +13,7 @@ Projeto desenvolvido no curso Stack Mobile
 
 <h2>Visão resumida do APP</h2>
 <h6>Tela inicial</h6>
-<img alt="Tela inicial" src="https://imgur.com/i2LbTeI"/>
+<img alt="Tela inicial" src="https://i.imgur.com/i2LbTeI.png"/>
 <h6>Tela de acesso a conta </h6>
 <img alt="Conta" src="https://imgur.com/d6ccOXj"/>
 <h6>Tela de acesso a senha </h6>
